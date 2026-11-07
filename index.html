@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>وصّلّي | توصيل الزقازيق</title>
+<style>*{box-sizing:border-box;font-family:'Segoe UI'}body{margin:0;background:#f8f9fa}header{background:#ff5a00;color:#fff;padding:18px;text-align:center}header h1{margin:0}.card{background:#fff;margin:12px;padding:16px;border-radius:14px}input,select,textarea{width:100%;padding:12px;margin:7px 0;border:1px solid #ddd;border-radius:10px}.btn{display:block;background:#25D366;color:#fff;text-align:center;padding:14px;border-radius:12px;text-decoration:none;font-weight:bold;margin:12px 0}.btn2{background:#111}.price-box{background:#fff3e6;border:1px dashed #ff5a00;padding:12px;border-radius:12px;text-align:center;font-weight:bold}</style>
+</head>
+<body>
+<header><h1>🛵 وصّلّي - الزقازيق</h1><p>نوصل أي حاجة من أي مكان لأي مكان</p></header>
+<div class="card"><h3>🚀 اطلب توصيلة</h3><input id="from" placeholder="هتستلم منين؟ مثال: صيدلية - القومية"><input id="to" placeholder="هتوصل لفين؟ مثال: فلل الجامعة"><select id="area"><option value="30">داخل الزقازيق - 30 ج</option><option value="50">قري قريبة - 50 ج</option><option value="75">قري بعيدة - 75 ج</option></select><textarea id="details" placeholder="تفاصيل الطلب"></textarea><div class="price-box">سعر التوصيل بيبدأ من 30 جنيه</div><a class="btn" href="#" onclick="sendWhats()">تأكيد الطلب واتساب ✅</a></div>
+<div class="card"><h3>🏪 للمحلات والصيدليات</h3><p>اشترك معانا وهنكون مندوبك. اشتراك 500 ج / شهر</p><a class="btn btn2" href="https://wa.me/201017124322">اشترك كمحل</a></div>
+<div class="card"><h3>🛵 عايز تشتغل كابتن؟</h3><a class="btn" href="https://wa.me/201017124322">قدم ككابتن</a></div>
+<script>function sendWhats(){let f=document.getElementById('from').value;let t=document.getElementById('to').value;let d=document.getElementById('details').value;let msg=`طلب جديد 🛵%0Aمن: ${f}%0Aإلى: ${t}%0Aالتفاصيل: ${d}`;window.open('https://wa.me/201017124322?text='+msg)}</script>
+</body></html>
